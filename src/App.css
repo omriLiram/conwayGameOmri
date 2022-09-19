@@ -13,6 +13,11 @@
   }
 }
 
+.Cell-logo{
+  animation: App-logo-spin infinite 25s linear;
+  
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +41,39 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+#cells{
+  border: 2 px yellow;
+  
+  box-sizing: border-box;
+ }
+ 
+ #row{
+   border: 2px;
+  
+   border-style: solid;
+   border-color: azure;
+ }
+ 
+
+
+   .gamegrid{
+
+    display: "grid";
+    grid-Template-Columns:'repeat(${colums}, 60px)';
+    width: fit-content;
+    margin: 0 auto
+
+
+   }
+
+   /*.gamegrid-gridvalues{
+    width:60;
+    height:60;
+    background-color: grid[i][j] ? 'grey'  : ''  ;
+    border: "1px solid black";
+   }*/
+  
+   
